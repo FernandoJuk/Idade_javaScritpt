@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Modelo de Exercício</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <label for="nomeano">Ano de nascimento</label>
+            <input Idade type="number" name="ano" id="ano_nasceu">
+        </div>
+        <div>
+            <label for="opcaocheckbox">Sexo: </label>
+            <input type="radio" name="sexo" id="masc" value="masculino">
+            <label for="#">Maculino</label>
+            <input type="radio" name="sexo" id="fem" value="feminino">
+            <label for="#">Feminino</label>
+        </div>
+        <div>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div>
+            <p id="result">Preencha os campos acima para ver o resultado!</p>
+        </div>
+        <div id="foto">
+            <img id="imagem" src="" alt="">
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Fernando Juk</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
